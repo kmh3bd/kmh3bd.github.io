@@ -9,8 +9,15 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+
+@media (max-width: 980px) {
+  body {
+    padding-top: 0px;
+  }
+}
 body {
   margin: 0;
+  padding-top: 60px;
 }
 article,
 aside,
