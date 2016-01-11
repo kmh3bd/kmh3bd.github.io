@@ -9,9 +9,7 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
-body {
-  padding-top: 60px;
-}
+
 @media (max-width: 980px) {
   body {
     padding-top: 0px;
@@ -19,6 +17,7 @@ body {
 }
 body {
   margin: 0;
+  padding-top: 60px;
 }
 article,
 aside,
